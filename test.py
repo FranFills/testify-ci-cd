@@ -10,7 +10,7 @@ class TestMain(unittest.TestCase):
         self.assertEqual(main.addition(-3,2), -1, "Should be -1")
         self.assertEqual(main.addition(-8,5), -3, "Should be -3")
 
-if __name__ -- '__main__':
+if _name_ -- '_main_':
     unittest.main()
 
 #always save your work
